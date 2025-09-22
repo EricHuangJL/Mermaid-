@@ -1,16 +1,6 @@
 ```mermaid
 flowchart TD
 
-%% 颜色主题
-classDef startstop fill:#4CAF50,color:#FFFFFF,stroke:#2E7D32,stroke-width:2px
-classDef dbus      fill:#00BCD4,color:#FFFFFF,stroke:#00838F,stroke-width:2px
-classDef mctp      fill:#FF9800,color:#FFFFFF,stroke:#EF6C00,stroke-width:2px
-classDef nic       fill:#3F51B5,color:#FFFFFF,stroke:#283593,stroke-width:2px
-classDef event     fill:#9C27B0,color:#FFFFFF,stroke:#6A1B9A,stroke-width:2px
-classDef decision  fill:#FFC107,color:#000000,stroke:#FFA000,stroke-width:2px
-classDef error     fill:#F44336,color:#FFFFFF,stroke:#C62828,stroke-width:2px
-classDef op        fill:#ECEFF1,color:#000000,stroke:#90A4AE,stroke-width:1px
-
 %% 主流程 MAIN
 subgraph MAIN_服务启动与初始化
   direction TB
